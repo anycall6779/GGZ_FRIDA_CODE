@@ -1,0 +1,55 @@
+# 임시 파일
+*.tmp
+*.temp
+*.log
+*.bak
+
+# 개발 환경 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# APK 관련 파일
+*.apk
+*.obb
+*.xapk
+
+# 키스토어 파일 (보안상 중요)
+*.jks
+*.keystore
+*.p12
+
+# 빌드 결과물
+build/
+dist/
+out/
+
+# 로그 파일
+frida.log
+console.log
+debug.log
+
+# 백업 파일
+backup/
+*.backup
+
+# 테스트 파일
+test_*.js
+*_test.js
+test/
+
+# 개인 설정 파일
+config.local.js
+settings.local.json
+
+# 민감한 정보가 포함된 파일
+secrets.json
+credentials.json
+api_keys.json
